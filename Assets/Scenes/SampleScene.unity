@@ -267,8 +267,9 @@ GameObject:
   - component: {fileID: 622751259}
   - component: {fileID: 622751258}
   - component: {fileID: 622751262}
+  - component: {fileID: 622751263}
   m_Layer: 0
-  m_Name: Player2
+  m_Name: Player2-IA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -401,6 +402,21 @@ MonoBehaviour:
   speed: 5
   rb: {fileID: 622751258}
   restartPos: {x: 0, y: 0, z: 0}
+--- !u!114 &622751263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 622751257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 686901ab64865aa45b864ca482e7ee9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ball: {fileID: 1429967613}
+  rangeToTrackBall: 5
+  paddleSpeed: 6
 --- !u!1 &730624462
 GameObject:
   m_ObjectHideFlags: 0
@@ -1134,7 +1150,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 692ec9ffb6e710548b2c6cff7976c44b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 8
   rb: {fileID: 1429967614}
   restartPos: {x: 0, y: 0, z: 0}
 --- !u!1 &1592317622
